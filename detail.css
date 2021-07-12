@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Century Gothic', 'Century';
+  background-color: rgb(242, 237, 220);
+  color: rgb(140, 131, 128);
+}
+p {
+  line-height: 1.5em; /* 24/16 */
+  padding-bottom: 0.4em;
+}
+em {
+  font-size: 0.15;
+  font-style: italic;
+}
+.container {
+  margin: auto;
+  width: 100%;
+  background-color: rgb(229, 226, 221);
+}
+.content {
+  display: flex;
+  margin: 2em auto;
+  width: 100%;
+}
+.columns h1 {
+  font-weight: bold;
+  font-size: 1.5em;
+  padding-bottom: 0.75em;
+  color: rgb(158, 179, 166);
+}
+.content .columns {
+  width: 100%;
+  margin-right: 10px;
+}
+.content h2 {
+  font-size: 1.25em;
+  padding-bottom: 0.5em;
+  padding-top: 0.25em;
+  color: rgb(158, 179, 166);
+}

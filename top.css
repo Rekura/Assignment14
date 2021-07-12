@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Century Gothic', 'Century';
+  background-color: rgb(242, 237, 220);
+  /* background-image: url(); */
+  color: rgb(140, 131, 128);
+}
+p {
+  line-height: 1.5em; /* 24/16 */
+  padding-bottom: 0.4em;
+}
+em {
+  font-size: 0.15;
+  font-style: italic;
+}
+
+/* .main-visual*/
+.main-visual img {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* container */
+div.container {
+  margin: 3em auto;
+  width: 90%;
+  background-color: rgb(229, 226, 221);
+}
+
+div.container h1 {
+  font-size: 2em;
+  color: rgb(158, 179, 166);
+  padding: 0.2em 0 0 0.2em;
+  margin-bottom: 0;
+}
+
+/* grid */
+div.grid {
+  clear: both;
+}
+
+div.grid div.rows {
+  clear: both;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+}
+
+.cell img {
+  width: 10em;
+  height: 10em;
+  text-align: center;
+  border-radius: 0.5em;
+}
+
+figure.cell a figcaption {
+  font-size: 1em;
+  padding: 0.1em;
+  color: rgb(89, 49, 34);
+  text-decoration: none;
+}
+
+figure.cell a figcaption:hover {
+  color: rgb(252, 226, 113);
+}
