@@ -1,0 +1,51 @@
+body {
+  font-family: "Century Gothic", "Century";
+  background-color: rgb(242, 237, 220);
+  color: rgb(140, 131, 128);
+}
+p {
+  line-height: 1.5em; /* 24/16 */
+  padding-bottom: 0.4em;
+}
+ em {
+  font-size: 0.15;
+  font-style: italic;
+}
+.container {
+  margin: auto;
+  width: 97%;
+  background-color: rgb(229, 226, 221);
+}
+.content {
+  width: 90%;
+}
+.content .columns {
+  margin-top: 25px;
+    margin-right: 10px;
+    float: left;
+}
+.columns a {
+  color: rgb(89, 49, 34);
+  text-decoration: none;
+  cursor: pointer;
+}
+.row {
+  width: 90%;
+  display: table;
+  margin: 20px 0;
+}
+.row .preview {
+  width: 15%;
+}
+.row .first {
+  width: 24%;
+  margin-left: 17%;
+}
+.row .offset-preview {
+  width: 15%;
+  margin-left: 42%;
+}
+.columns img{
+  width: 160px;
+  border-radius: .5em;
+}
