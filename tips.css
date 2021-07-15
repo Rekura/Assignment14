@@ -1,5 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  font-family: "Century Gothic", "Century";
+  margin: 0;
+  padding: 0;
+  font-family: 'Century Gothic', 'Century';
   background-color: rgb(242, 237, 220);
   color: rgb(140, 131, 128);
 }
@@ -7,13 +13,13 @@ p {
   line-height: 1.5em; /* 24/16 */
   padding-bottom: 0.4em;
 }
- em {
+em {
   font-size: 0.15;
   font-style: italic;
 }
 .container {
-  margin: auto;
-  width: 97%;
+  margin: 3em auto;
+  width: 90%;
   background-color: rgb(229, 226, 221);
 }
 .content {
@@ -21,8 +27,8 @@ p {
 }
 .content .columns {
   margin-top: 25px;
-    margin-right: 10px;
-    float: left;
+  margin-right: 10px;
+  float: left;
 }
 .columns a {
   color: rgb(89, 49, 34);
@@ -45,7 +51,7 @@ p {
   width: 15%;
   margin-left: 42%;
 }
-.columns img{
+.columns img {
   width: 160px;
-  border-radius: .5em;
+  border-radius: 0.5em;
 }
